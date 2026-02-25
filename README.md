@@ -2,17 +2,16 @@
 
 ![CFD External Flow Banner](images/banner.svg)
 
-**Course:** MAE 560/460 – Applied Computational Fluid Dynamics  
-**Project:** Project 3 – External Flow  
+Applied Computational Fluid Dynamics  
+External Flow  
 **Tool:** ANSYS Fluent 2024 R2  
-**Author:** Vaishanavi Sogalad · ASU ID: 1232641594  
-**Institution:** Arizona State University · Fall 2024
+**Author:** Vaishanavi Sogalad 
 
 </div>
 
 ---
 
-## 🎯 What Is This Project? (The Big Picture)
+##  What Is This Project? (The Big Picture)
 
 This project uses **ANSYS Fluent** to simulate fluid flowing *around* objects — called **external flow** — just like wind blowing around a building, or water flowing past a submarine. Unlike flow inside a pipe, external flow creates complex wakes, vortices, and oscillating forces that must be carefully analyzed.
 
@@ -27,7 +26,7 @@ The project covers **four distinct physical problems**, each building on the pre
 
 ---
 
-## 🧠 Target Learning Areas
+##  Target Learning Areas
 
 By completing this project, you develop skills in:
 
@@ -57,7 +56,7 @@ By completing this project, you develop skills in:
 
 ---
 
-## 📐 Key Equations
+##  Key Equations
 
 ### Reynolds Number
 $$Re = \frac{\rho \, v \, D}{\mu}$$
@@ -100,7 +99,7 @@ At low Reynolds numbers, viscous drag is significant. At Re ~ 600, pressure drag
 
 ---
 
-## 🔧 Simulation Setup
+##  Simulation Setup
 
 | Parameter | Value |
 |---|---|
@@ -204,7 +203,7 @@ This is the same phenomenon that caused the **Tacoma Narrows Bridge** to oscilla
 
 ---
 
-## ✈️ Task 2 — Flying Saucer Aerodynamics (3D Steady)
+##  Task 2 — Flying Saucer Aerodynamics (3D Steady)
 
 ### Problem Setup
 
@@ -253,7 +252,7 @@ A flying-saucer-shaped body is placed in a 3D domain and tilted at three angles:
 
 ---
 
-## 🏢 Task 3 — Wind Loads on a Building (3D Steady)
+##  Task 3 — Wind Loads on a Building (3D Steady)
 
 ### Problem Setup
 
@@ -300,7 +299,7 @@ A simplified building model is placed in a 3D atmospheric domain. Two runs are p
 
 ---
 
-## 🔬 Task 4 — Asymmetric Cylinder Design (MAE 560 Only)
+##  Task 4 — Asymmetric Cylinder Design (MAE 560 Only)
 
 ### The Challenge
 
@@ -356,7 +355,7 @@ Design a custom **asymmetric cylinder** that fits within a 4cm × 4cm bounding b
 
 ---
 
-## 🔑 Key Findings Summary
+##  Key Findings Summary
 
 | Task | Most Important Finding |
 |---|---|
@@ -367,7 +366,7 @@ Design a custom **asymmetric cylinder** that fits within a 4cm × 4cm bounding b
 
 ---
 
-## 🛠️ Tools & Software
+##  Tools & Software
 
 - **ANSYS Fluent 2024 R2** — CFD solver (finite volume method)
 - **ANSYS SpaceClaim** — Geometry creation
@@ -377,11 +376,6 @@ Design a custom **asymmetric cylinder** that fits within a 4cm × 4cm bounding b
 
 ---
 
-## 📚 Course Information
-
-**MAE 560/460 — Applied Computational Fluid Dynamics**  
-Arizona State University · Fall 2024  
-No Collaboration
 
 ---
 
