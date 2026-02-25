@@ -13,7 +13,7 @@ External Flow
 
 ##  What Is This Project? (The Big Picture)
 
-This project uses **ANSYS Fluent** to simulate fluid flowing *around* objects — called **external flow** — just like wind blowing around a building, or water flowing past a submarine. Unlike flow inside a pipe, external flow creates complex wakes, vortices, and oscillating forces that must be carefully analyzed.
+This project utilizes **ANSYS Fluent** to simulate fluid flow around objects, known as **external flow**, similar to wind blowing around a building or water flowing past a submarine. Unlike flow inside a pipe, external flow creates complex wakes, vortices, and oscillating forces that must be carefully analyzed.
 
 The project covers **four distinct physical problems**, each building on the previous:
 
@@ -38,7 +38,7 @@ By completing this project, you develop skills in:
 **2. Vortex Shedding & the Strouhal Number**
 - Understanding how cylinders shed alternating vortices (the **Kármán vortex street**)
 - Measuring the **Strouhal number** from lift oscillation frequency
-- Seeing how cross-sectional shape dramatically changes shedding amplitude
+- Seeing how the cross-sectional shape dramatically changes shedding amplitude
 
 **3. Aerodynamic Forces**
 - Computing lift and drag from Fluent's force reports
@@ -71,7 +71,7 @@ The dimensionless ratio of inertial to viscous forces. Determines whether flow i
 | μ | Dynamic viscosity | 0.0024 kg/m·s |
 | **Re** | **Reynolds number** | **608.33** |
 
-> At Re ≈ 608, flow is in the **laminar vortex shedding** regime — periodic and predictable, but unsteady.
+> At Re ≈ 608, flow is in the **laminar vortex shedding** regime, periodic and predictable, but unsteady.
 
 ---
 
@@ -118,7 +118,7 @@ At low Reynolds numbers, viscous drag is significant. At Re ~ 600, pressure drag
 
 ### What Is Vortex Shedding?
 
-When fluid flows past a bluff body (like a cylinder), it cannot smoothly follow the curved surface. The flow **separates** and forms alternating swirling vortices downstream — the famous **Kármán vortex street**. These cause an oscillating **lift force** perpendicular to the flow direction, even though the cylinder isn't moving.
+When fluid flows past a bluff body (like a cylinder), it cannot smoothly follow the curved surface. The flow **separates** and forms alternating swirling vortices downstream of the famous **Kármán vortex street**. These cause an oscillating **lift force** perpendicular to the flow direction, even though the cylinder isn't moving.
 
 This is the same phenomenon that caused the **Tacoma Narrows Bridge** to oscillate and collapse in 1940.
 
@@ -133,7 +133,7 @@ This is the same phenomenon that caused the **Tacoma Narrows Bridge** to oscilla
 
 ![Task 1 Mesh](images/task1_mesh.png)
 
-*The 2D computational domain with velocity inlet (left), pressure outlet (right), and the cylinder centered in the domain. Green region = structured mesh; arrows show inlet flow direction.*
+*The 2D computational domain with a velocity inlet (left), pressure outlet (right), and the cylinder centered in the domain. Green region = structured mesh; arrows show inlet flow direction.*
 
 ---
 
